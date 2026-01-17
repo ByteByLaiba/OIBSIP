@@ -4,7 +4,6 @@ import secrets
 import string
 import math
 
-# ---------------- COLORS ---------------- #
 JUNGLE_TEAL = "#6B9080"
 MUTED_TEAL = "#A4C3B2"
 FROZEN_WATER = "#CCE3DE"
@@ -13,7 +12,7 @@ MINT_CREAM = "#F6FFF8"
 
 SYMBOLS = "!@#$%^&*()-_=+[]{};:,.<>?/"
 
-# ---------------- LOGIC ---------------- #
+
 
 def calculate_entropy(password):
     pool_size = 0
@@ -98,7 +97,6 @@ def copy_password():
             "Password copied to clipboard successfully."
         )
 
-# ---------------- UI ---------------- #
 
 root = tk.Tk()
 root.title("Secure Password Studio")
@@ -106,7 +104,7 @@ root.geometry("520x560")
 root.configure(bg=AZURE_MIST)
 root.resizable(False, False)
 
-# Title
+
 tk.Label(
     root,
     text="Secure Password Studio",
