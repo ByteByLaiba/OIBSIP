@@ -28,6 +28,12 @@ A Python application that generates strong and secure random passwords based on 
 
 **Folder:** `Advanced-Password-Generator`
 
+**Technologies Used**
+
+- **Programming Language:** Python 3  
+- **GUI Framework:** Tkinter  
+- **Security Module:** secrets  
+- **Mathematics:** entropy calculation using `math`
 ---
 
 ### 2. BMI Calculator
@@ -40,6 +46,15 @@ A Python program that calculates the Body Mass Index (BMI) using user-provided h
 
 **Folder:** `BMI_Project`
 
+**Technologies Used**
+
+| Tool | Usage |
+|----|------|
+| Python | Application logic |
+| Tkinter | GUI design |
+| SQLite | Local database |
+| Matplotlib | Graph plotting |
+| datetime | Record timestamps |
 ---
 
 ### 3. Weather Application
@@ -52,6 +67,14 @@ A Python-based weather application that provides real-time weather information f
 
 **Folder:** `WeatherApp`
 
+**Technologies Used**
+
+- Python 3
+- Tkinter (GUI development)
+- WeatherAPI (Weather data provider)
+- Requests (HTTP requests)
+- Matplotlib (Data visualization)
+- Threading (Background API calls)
 ---
 
 ## Repository Structure
@@ -61,11 +84,14 @@ OIBSIP/
 │
 ├── Advanced-Password-Generator/
 │   └── Password-Generator.py
+│   └── README.md
 │
 ├── BMI_Project/
-│   └── bmi_calculator.py
+│   └── BMI.py
+│   └── README.md
 │
 ├── WeatherApp/
-│   └── weather_app.py
+│   └── WeatherApp.py
+│   └── README.md
 │
 └── README.md
