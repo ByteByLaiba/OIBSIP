@@ -5,41 +5,41 @@ The application is designed to calculate Body Mass Index, store records permanen
 
 ---
 
-## ✨ Application Highlights
+##  Application Highlights
 
-### 🧮 BMI Calculation
+###  BMI Calculation
 - Computes BMI using user-provided height and weight
 - Automatically classifies health status
 - Displays clear health guidance for each category
 
-### 👥 Multi-User Support
+###  Multi-User Support
 - Supports multiple users in a **single shared database**
 - Each entry is timestamped for accurate tracking
 - Historical records remain available across sessions
 
-### 🗂 Persistent Storage
+###  Persistent Storage
 - Local **SQLite file-based storage**
 - No external server required
 - Data is preserved even after closing the application
 
-### 📊 Visual Analytics
+###  Visual Analytics
 - Interactive BMI trend graph for individual users
 - Time-based visualization using Matplotlib
 - Reference lines indicate standard BMI ranges
 
-### 🛠 History Management
+###  History Management
 - View complete BMI history of all users
 - Remove selected records
 - Option to clear all stored data with confirmation
 
-### 🧯 Validation & Safety
+###  Validation & Safety
 - Validates numerical input ranges
 - Prevents invalid or unrealistic entries
 - Graceful error handling with alerts
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Tool | Usage |
 |----|------|
