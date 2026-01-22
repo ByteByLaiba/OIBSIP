@@ -55,6 +55,8 @@ A Python-based weather application that provides real-time weather information f
 ---
 
 ## Repository Structure
+
+```text
 OIBSIP/
 │
 ├── Advanced-Password-Generator/
