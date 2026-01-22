@@ -55,16 +55,15 @@ A Python-based weather application that provides real-time weather information f
 ---
 
 ## Repository Structure
-
 OIBSIP/
 │
 ├── Advanced-Password-Generator/
-│ └── Password-Generator.py
+│   └── Password-Generator.py
 │
 ├── BMI_Project/
-│ └── bmi_calculator.py
+│   └── bmi_calculator.py
 │
 ├── WeatherApp/
-│ └── weather_app.py
+│   └── weather_app.py
 │
 └── README.md
